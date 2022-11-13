@@ -90,7 +90,7 @@ function App() {
               />
             </div>
             <div className='animation__2'>
-              <p className='p1'>8, wole olateju crescent</p>
+              <p className='p1'>8,wole olateju crescent</p>
               <p className='p2'>
                 <span>
                   <Lottie
