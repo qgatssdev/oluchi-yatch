@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    const difference = +new Date(`${year}-11-22`) - +new Date();
+    const difference = +new Date(`${year}-11-27`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
