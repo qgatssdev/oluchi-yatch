@@ -90,7 +90,7 @@ function App() {
           <Mailto
             email='Oluchinnose2000@gmail.com'
             subject='Birthday RSVP'
-            body='Heyyy!, kindly rsvp 😊'
+            body='Heyyy! kindly rsvp 😊, Just send your name and let me know if you will be there.'
             className='RSVP'
           >
             Click here to RSVP
