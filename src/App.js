@@ -67,6 +67,7 @@ function App() {
             <span>Happy Birthday to Me!</span>
           )}
         </p>
+        <p className='party'>Let's party 🥳</p>
         <div className='animation'>
           <div className='animation__1'>
             <Lottie animationData={animation} loop={true} className='lottie' />
@@ -83,15 +84,17 @@ function App() {
               </span>
               6PM!
             </p>
-            <Mailto
-              email='Oluchinnose2000@gmail.com'
-              subject='Birthday RSVP'
-              body='Heyyy!, kindly rsvp 😊'
-              className='RSVP'
-            >
-              Click here to RSVP
-            </Mailto>
           </div>
+        </div>
+        <div className='mailto'>
+          <Mailto
+            email='Oluchinnose2000@gmail.com'
+            subject='Birthday RSVP'
+            body='Heyyy!, kindly rsvp 😊'
+            className='RSVP'
+          >
+            Click here to RSVP
+          </Mailto>
         </div>
       </section>
     </div>
