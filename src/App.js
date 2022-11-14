@@ -70,7 +70,7 @@ function App() {
       ) : (
         <section>
           <h1 className='sec__header'>
-            All on board to Olly's Yatcht party!!!!
+            All on board to Olly's Yacht party!!!!
           </h1>
           <img src={require('./assets/IMG_2324.png')} alt='' />
           <p className='sec__p1'>
